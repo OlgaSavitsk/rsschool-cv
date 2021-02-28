@@ -15,3 +15,9 @@
    return result;
    }
    ```
+
+5. Initial skills in Front-end development
+6. I was a student at IT-school MyFreedom (Front-end Development Basics course)
+7. 2007-2012 Belarusian State University of Technology (Chemical engineer), Diploma of Higher Education  
+        2014-2015 Streamline English (Pre-Intermediate Level)
+8. Pre-Intermediate
