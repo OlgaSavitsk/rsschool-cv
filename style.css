@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-size: 16 px;
+    font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 40px;
+}
