@@ -9,32 +9,70 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap">
 </head>
 <body>
-   <section class="content">
-       <div class="wrapper">
-           <ol class="content__list">
-               <li>Olga Savitskaya</li>
-               <li>tel +375 33 6809533</li>
-               <li>My task is to understand a new area of knowledges for me and change my occupation. I am on maternity leave and this is the best time to rethinking life. Studying has always been easy and exciting for me, I like the feeling of a working brain</li>
-               <li><code>
-                   function positiveSum(arr) { <br>
-	                let result = 0;<br>
-	                for (let i = 0; i < arr.length; i++) {   <br>             	
-                    if (arr[i] > 0){<br>
-                	result += arr[i];<br>	
-                     } <br>               
-	                }<br>
-	                return result;<br>
-	                }<br>
-                </code></li>
-               <li>I have basic skills in Front-end development(HTML, CSS) and UI –design/Figma
-                </li>
-                <li>2007-2012 Belarusian State University of Technology (Chemical engineer), Diploma of Higher Education <br>
-                    2014-2015 Streamline English (Pre-Intermediate Level) <br>
-                    2019 I was a student at IT-school MyFreedom (Front-end Development Basics course)
+    <header class="header">
+        <div class="wrapper__header">
+            <figure class="foto">
+                <img src="./img/cv.photo.JPG" alt="my photo">
+            </figure>
+            <h1>Olga Savitskaya</h1>
+            <div class="contacts">
+                <h2>Contacts</h2>
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <a href="tel:+375336809533" >tel:+375336809533</a>
                     </li>
-                    <li>Pre-Intermediate A2</li>
-           </ol>
-       </div>
-   </section>
+                    <li class="contacts__item">
+                        <a href="mailto:o.savitskaya24@gmail.com" target="_blank">o.savitskaya24@gmail.com</a>
+                    </li>
+                    <li class="contacts__item"></li>
+                    <a href="https://telegram.me/Olga_Savitsk" target="_blank">Telegram: @Olga_Savitsk</a>
+                </ul>
+            </div>
+            
+        </div>
+    </header>
+</body>
+<main class="content">
+    <section class="about">
+        <div class="wrapper">
+            <h2>About</h2>
+            <p>My task is to understand a new area of knowledges for me and change my occupation. I am on maternity leave and this is the best time for rethinking own life. Studying has always been easy and exciting for me, I like the feeling of a working brain</p>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="wrapper">
+            <h2>Skills</h2>
+            <ul class="skills__list">
+                <li class="skills__item">Basic skills in Front-end development (HTML, CSS)</li>
+                <li class="skills__item">UI –design/Figma</li>
+            </ul>
+        </div>
+    </section>
+    <section class="code">
+        <div class="wrapper">
+            <h2>Code</h2>
+            <a href="https://github.com/OlgaSavitsk">Github.com</a>
+        </div>
+    </section>
+    <section class="aducation">
+        <div class="wrapper">
+            <h2>Aducation</h2>
+            <p>I finished the course  Basic Front-end  Development in 2019 and I’m studying on my own now</p>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="logo">
+            <a href="https://rs.school/js/">
+                <img src="./img/rs_school_js.svg" alt="logo" class="logo">
+            </a>    
+        </div>
+        <div class="footer__block">
+            <a href="https://github.com/OlgaSavitsk">My Github</a>
+            <h3>2021</h3>
+        </div>
+    </div>
+</footer>
 
 </html>
