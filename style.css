@@ -13,8 +13,6 @@ body {
     max-width: 1200px;
     margin: auto;
     padding: 0 40px;
-    display: flex;
-    justify-content: space-between;
 }
 
 .wrapper__header{
@@ -43,6 +41,7 @@ h1{
 
 h2{
     font-size: 28px;
+    padding: 20px 0;
 }
 
 .contacts__list{
